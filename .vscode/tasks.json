@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Spring Boot Backend",
+			"type": "shell",
+			"command": "cd spring-boot-backend; mvn spring-boot:run",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Start Spring Boot Backend",
+			"type": "shell",
+			"command": "cd spring-boot-backend; mvn spring-boot:run",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Start Spring Boot Backend",
+			"type": "shell",
+			"command": "cd spring-boot-backend; mvn spring-boot:run",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Start Spring Boot Backend (PowerShell)",
+			"type": "shell",
+			"command": "cd spring-boot-backend; mvn spring-boot:run",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
